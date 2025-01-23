@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Video Saver</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <nav class="main-heading">
+        <h1>Youtube Video Saver</h1>
+      </nav>
+
+      <div class="top-container">
+        <div class="input-container">
+          <input
+            id="input-ele"
+            class="input-ele"
+            type="text"
+            placeholder="Enter your video link"
+          />
+          <label for="input-ele">Press Enter</label>
+        </div>
+        <hr />
+        <p class="inside-para">Your Saved Videos</p>
+        <div class="videos-container" id="videos-container">
+          <!-- Dynamically added videos will appear here -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
